@@ -1,7 +1,7 @@
 <?php
-$host = '71.19.149.181'; //Enter server's IP here
-$port = '25565'; //Enter server port. Default is 25565
-$to=30; //Set timeout
+$host = 'YOUR_IP_HERE'; //Enter server's IP here
+$port = 'YOUR_PORT_HERE'; //Enter server port. Default is 25565
+$to=30; //Timeout in ms. You can usually leave this alone.
 function pingserver($host, $port=25565, $timeout=30) { //These are set as defaults, changes made above will override them
 	//Set up socket
 	$fp = fsockopen($host, $port, $errno, $errstr, $timeout);
