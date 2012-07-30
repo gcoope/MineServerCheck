@@ -1,0 +1,12 @@
+Simple micro-site that enables you to see simple details about any Minecraft. Minecraft is a game created by Mojang, and they hold all legal rights.
+This site is completely non-profit, and made as a fun mini-project.
+
+TO USE:
+
+To add your own server, edit mcping.php, and change the IP and the Port (leave if you don't know it) at the top to the ones belonging to the server you want to find the information about.
+
+The information will update every 5 seconds without the need to refresh.
+
+TECHNOLOGIES USED:
+
+I used PHP for the ping script, using fopensock to ping the server and retrieve the information. jQuery was used to automatically update the information without the need to refresh the entire page.
